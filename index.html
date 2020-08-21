@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> UFO Sightings</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script  type="text/javascript" src="js/data.js"></script>
+</head>
+<body>
+    <h1 style="text-align:center;">List of UFO Sightings</h1>
+    <form action="#" method="post" onsubmit="return get_data()">
+        <label>Date:</label>
+        <input type="date" id="ufo_date" name="date">
+        <input type="submit">
+    </form>
+    <br>
+    <div id="ufo-table">
+    </div>
+    <script  type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
